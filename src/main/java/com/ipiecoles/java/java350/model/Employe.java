@@ -46,11 +46,11 @@ public class Employe {
     public Integer getNombreAnneeAnciennete() {
                 
             int anneeEmbauche = this.dateEmbauche.getYear();
-            if (this.anneeEmbauche = null) { return 0};
+            if (this.anneeEmbauche = null) { return 0;};
             int dateAnnee = LocalDate.now().getYear();
             int anciennete = dateAnnee - anneeEmbauche;
                 
-            if (this.anciennete < 0 ) { anciennete = 0 };
+            if (this.anciennete < 0 ) { anciennete = 0; };
                return anciennete;
     }
 
